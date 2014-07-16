@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="48dp">
+
+    <Button
+        android:text="@string/shared_prefs_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shared_prefs_button"
+        android:onClick="shared_prefs_button_onClick" />
+
+    <Button
+        android:text="@string/internal_storage_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/internal_storage_button"
+        android:onClick="internal_storage_button_onClick" />
+
+    <Button
+        android:text="@string/external_storage_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/external_storage_button"
+        android:onClick="external_storage_button_onClick" />
+
+    <Button
+        android:text="@string/sqlite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sqlite_button"
+        android:onClick="sqlite_button_onClick" />
+
+    <Button
+        android:text="@string/json_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/json_button"
+        android:onClick="json_button_onClick" />
+
+</LinearLayout>

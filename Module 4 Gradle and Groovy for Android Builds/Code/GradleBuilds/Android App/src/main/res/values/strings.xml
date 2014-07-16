@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GradleBuilds</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Android_App">Android App Main</string>
+    <string name="library_button">Library Activity</string>
+    <string name="flavor_button">Flavor Button</string>
+
+</resources>
